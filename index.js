@@ -35,7 +35,7 @@ app.post("/:lastName/:firstName", (req, res) => {
   })
 })
 
-app.listen(3000)
+app.listen(8080)
 
 
 
@@ -62,3 +62,27 @@ app.listen(3000)
 
 //  in either case, one application is ready, failover traffic from old to new. 
 //  This gets shows in dashboard for devs in lab. 
+
+
+/* 
+Given a collection of numbers, nums, that might contain duplicates, return all possible unique permutations in any order.
+Input: nums = [1,1,2]
+Output:
+[[1,1,2],
+[1,2,1],
+[2,1,1]]
+Input: nums = [1,2,3]
+Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+*/
+/*
+const permute = (array) => {
+  // binary tree manipulation
+  // lifo fifo
+  // array manip 
+  // dictionary 
+
+  for (let i = 0; i < array.size; i++) {
+
+  }
+}
+*/
